@@ -138,7 +138,7 @@ pre.sql::before, pre.language-sql::before {
   content: "SQL";
 }
 
-.callout {
+.callout > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #f4fd9c;
@@ -146,7 +146,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.callout h2 {
+.callout > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -156,7 +156,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.callout h2:before {
+.callout > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -166,7 +166,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.callout h3 {
+.callout > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -176,7 +176,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.callout h3:before {
+.callout > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -186,7 +186,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.challenge {
+.callout > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #f4fd9c, #f5fda6);
+  border-color: #f4fd9c;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.callout > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.callout > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #f4fd9c, #f5fda6);
+  border-color: #f4fd9c;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.callout > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.challenge > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #eec275;
@@ -194,7 +234,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.challenge h2 {
+.challenge > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -204,7 +244,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.challenge h2:before {
+.challenge > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "✏";
   float: left;
@@ -214,7 +254,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.challenge h3 {
+.challenge > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -224,7 +264,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.challenge h3:before {
+.challenge > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "✏";
   float: left;
@@ -234,7 +274,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.checklist {
+.challenge > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #eec275, #f0c883);
+  border-color: #eec275;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.challenge > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "✏";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.challenge > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #eec275, #f0c883);
+  border-color: #eec275;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.challenge > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "✏";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.checklist > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #dfd2a0;
@@ -242,7 +322,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.checklist h2 {
+.checklist > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -252,7 +332,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.checklist h2:before {
+.checklist > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -262,7 +342,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.checklist h3 {
+.checklist > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -272,7 +352,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.checklist h3:before {
+.checklist > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -282,7 +362,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.discussion {
+.checklist > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #dfd2a0, #e2d7aa);
+  border-color: #dfd2a0;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.checklist > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.checklist > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #dfd2a0, #e2d7aa);
+  border-color: #dfd2a0;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.checklist > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.discussion > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #eec275;
@@ -290,7 +410,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.discussion h2 {
+.discussion > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -300,7 +420,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.discussion h2:before {
+.discussion > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -310,7 +430,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.discussion h3 {
+.discussion > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -320,7 +440,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.discussion h3:before {
+.discussion > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -330,7 +450,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.keypoints {
+.discussion > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #eec275, #f0c883);
+  border-color: #eec275;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.discussion > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.discussion > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #eec275, #f0c883);
+  border-color: #eec275;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.discussion > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.keypoints > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #7ae78e;
@@ -338,7 +498,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.keypoints h2 {
+.keypoints > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -348,7 +508,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.keypoints h2:before {
+.keypoints > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -358,7 +518,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.keypoints h3 {
+.keypoints > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -368,7 +528,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.keypoints h3:before {
+.keypoints > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -378,7 +538,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.objectives {
+.keypoints > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #7ae78e, #87e999);
+  border-color: #7ae78e;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.keypoints > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.keypoints > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #7ae78e, #87e999);
+  border-color: #7ae78e;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.keypoints > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.objectives > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #daee84;
@@ -386,7 +586,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.objectives h2 {
+.objectives > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -396,7 +596,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.objectives h2:before {
+.objectives > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -406,7 +606,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.objectives h3 {
+.objectives > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -416,7 +616,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.objectives h3:before {
+.objectives > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -426,7 +626,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.prereq {
+.objectives > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #daee84, #def090);
+  border-color: #daee84;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.objectives > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.objectives > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #daee84, #def090);
+  border-color: #daee84;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.objectives > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.prereq > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #9cd6dc;
@@ -434,7 +674,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.prereq h2 {
+.prereq > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -444,7 +684,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.prereq h2:before {
+.prereq > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -454,7 +694,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.prereq h3 {
+.prereq > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -464,7 +704,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.prereq h3:before {
+.prereq > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -474,7 +714,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.solution {
+.prereq > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #9cd6dc, #a6dae0);
+  border-color: #9cd6dc;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.prereq > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.prereq > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #9cd6dc, #a6dae0);
+  border-color: #9cd6dc;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.prereq > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.solution > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #ded4b9;
@@ -482,7 +762,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.solution h2 {
+.solution > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -492,7 +772,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.solution h2:before {
+.solution > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -502,7 +782,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.solution h3 {
+.solution > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -512,7 +792,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.solution h3:before {
+.solution > h3:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -522,7 +802,47 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.testimonial {
+.solution > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #ded4b9, #e1d8c0);
+  border-color: #ded4b9;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.solution > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.solution > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #ded4b9, #e1d8c0);
+  border-color: #ded4b9;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.solution > h5:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.testimonial > {
   padding: 0 0 5px 5px;
   border: 1px solid;
   border-color: #fc8dc1;
@@ -530,7 +850,7 @@ pre.sql::before, pre.language-sql::before {
   margin: 15px 5px 10px 0;
 }
 
-.testimonial h2 {
+.testimonial > h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
@@ -540,7 +860,7 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.testimonial h2:before {
+.testimonial > h2:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
@@ -550,7 +870,7 @@ pre.sql::before, pre.language-sql::before {
   -webkit-font-smoothing: antialiased;
 }
 
-.testimonial h3 {
+.testimonial > h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
@@ -560,7 +880,47 @@ pre.sql::before, pre.language-sql::before {
   margin-left: -5px;
 }
 
-.testimonial h3:before {
+.testimonial > h3:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.testimonial > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #fc8dc1, #fc98c7);
+  border-color: #fc8dc1;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.testimonial > h4:before {
+  font-family: 'Glyphicons Halflings';
+  content: "";
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.testimonial > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background: linear-gradient(to bottom, #fc8dc1, #fc98c7);
+  border-color: #fc8dc1;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.testimonial > h5:before {
   font-family: 'Glyphicons Halflings';
   content: "";
   float: left;
