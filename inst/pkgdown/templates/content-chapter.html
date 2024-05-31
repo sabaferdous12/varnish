@@ -50,6 +50,10 @@
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="{{ translate.ExpandAllSolutions }} " data-collapse="{{ translate.CollapseAllSolutions }} "> {{ translate.ExpandAllSolutions }} <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 
+        {{#this_page_pdf}}
+            <p><a href="{{#site}}{{root}}{{/site}}{{this_page_pdf}}"><strong>Download Chapter PDF</strong></a></p>
+        {{/this_page_pdf}}
+
         {{{body}}}
 
       </div> <!-- / div.lesson-content -->
